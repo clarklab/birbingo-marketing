@@ -611,9 +611,6 @@ video {
 .w-5 {
   width: 1.25rem;
 }
-.w-\[22\.875rem\] {
-  width: 22.875rem;
-}
 .w-auto {
   width: auto;
 }
@@ -628,9 +625,6 @@ video {
 }
 .max-w-7xl {
   max-width: 80rem;
-}
-.max-w-full {
-  max-width: 100%;
 }
 .max-w-lg {
   max-width: 32rem;
@@ -669,6 +663,10 @@ video {
 .bg-\[\#779E32\] {
   --tw-bg-opacity: 1;
   background-color: rgb(119 158 50 / var(--tw-bg-opacity));
+}
+.bg-\[\#F0EAE4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 234 228 / var(--tw-bg-opacity));
 }
 .bg-gray-900\/10 {
   background-color: rgb(17 24 39 / 0.1);
@@ -787,16 +785,18 @@ video {
 .ring-gray-900\/10 {
   --tw-ring-color: rgb(17 24 39 / 0.1);
 }
-.drop-shadow-xl {
-  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
 .\[mask-image\:radial-gradient\(100\%_100\%_at_top_right\2c white\2c transparent\)\] {
   -webkit-mask-image: radial-gradient(100% 100% at top right,white,transparent);
   mask-image: radial-gradient(100% 100% at top right,white,transparent);
 }
 /* ------ Add your CSS below this line (or @import your other CSS files). ------- */
+.screen {
+    opacity: 1;
+    transition: opacity 1s;
+}
+.screen.fadeOut {
+    opacity: 0;
+}
 .hover\:bg-indigo-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
@@ -882,5 +882,4 @@ video {
     line-height: 2.25rem;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
