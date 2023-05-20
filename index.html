@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Birbingo - Bird spotting open source game</title>
 
@@ -22,13 +25,13 @@
   <meta name="twitter:image" content="/images/unfurl.png">
 
 </head>
-<body class="antialiased">
+<body class="antialiased bg-topo">
   
   <img src="images/unfurl.png" class="hidden" alt="">
 
-  <div class="bg-white">
+  <div class="">
   <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="flex max-w-7xl mx-auto items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Birbingo</span>
@@ -38,28 +41,17 @@
      
       
       <div class="lg:flex lg:flex-1 lg:justify-end">
-        <a href="https://app.birbingo.com" class="text-sm font-semibold leading-6 text-gray-900">Try Birbingo <span aria-hidden="true">&rarr;</span></a>
+        <a href="https://app.birbingo.com" class="text-lg font-semibold leading-6 text-gray-900 ">Try Birbingo <span aria-hidden="true">&rarr;</span></a>
       </div>
     </nav>
     
   </header>
 
   <div class="relative isolate pt-14">
-    <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-      <defs>
-        <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-          <path d="M100 200V.5M.5 .5H200" fill="none" />
-        </pattern>
-      </defs>
-      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
-      </svg>
-      <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
-    </svg>
-    <div class="mx-auto max-w-7xl px-6 py-24 lg:flex lg:items-top lg:gap-x-16 lg:px-8 lg:justify-between">
+    <div class="mx-auto max-w-7xl px-6 py-24 pb-16 lg:flex lg:items-top lg:gap-x-16 lg:px-8 lg:justify-between">
       <div class="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
         <div class="flex lg:pt-24">
-          <div class="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+          <div class="relative flex items-center gap-x-4 rounded-full px-4 py-2 text-base leading-6 text-gray-600 bg-white hover:scale-110 hover:-rotate-1 transition-all">
             <span class="font-semibold text-[#006E38]">Written with AI</span>
             <span class="h-4 w-px bg-gray-900/10" aria-hidden="true"></span>
             <a href="https://github.com/clarklab/birbingo/" class="flex items-center gap-x-1">
@@ -71,21 +63,21 @@
             </a>
           </div>
         </div>
-        <h1 class="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl">Win at birds.</h1>
-        <p class="mt-6 text-2xl leading-8 text-gray-600">For real. Bird watch, keep score, remember your outings, tweak your settings, <strong>win at birds.</strong></p>
+        <h1 class="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl">Win at birds.</h1>
+        <p class="mt-6 text-2xl leading-8 text-gray-600">For real. Bird watch, keep score, remember your outings, tweak your settings, <strong class="font-semibold">win at birds.</strong></p>
         <div class="mt-8 flex items-center gap-x-6">
-          <a href="https://app.birbingo.com" class="rounded-full bg-[#779E32] px-8 py-4 text-2xl lg:text-3xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Try Birbingo</a>
-          <a href="#" class="text-base font-semibold leading-6 text-gray-900">It's free! <span aria-hidden="true"></span></a>
+          <a href="https://app.birbingo.com" class="rounded-full bg-[#779E32] px-8 py-4 text-2xl lg:text-3xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:scale-110 hover:-rotate-1 transition-all">Try Birbingo</a>
+          <a href="#" class="text-xl font-semibold leading-6 text-gray-900">It's free! <span aria-hidden="true"></span></a>
         </div>
       </div>
       <div class="mt-16 sm:mt-24 lg:mt-0">
-        <svg width="366" height="729" viewBox="0 0 366 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 366 729" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto w-[22.875rem] max-w-full drop-shadow-xl">
           <defs>
             <clipPath id="2ade4387-9c63-4fc4-b754-10e687a0d332">
               <rect width="316" height="556" rx="20" class="bg-[#F0EAE4]" />
             </clipPath>
           </defs>
-<path d="M363.315 54.213C363.315 12.99 351.312 1 310.092 1H56.751C15.53 1 3.528 12.99 3.528 54.213V108.893L2.671 109.036C2.20401 109.114 1.77979 109.355 1.47381 109.716C1.16784 110.077 0.999942 110.536 1 111.009V135.62C0.999942 136.093 1.16784 136.552 1.47381 136.913C1.77979 137.274 2.20401 137.515 2.671 137.593L3.621 137.751C3.59444 137.831 3.56339 137.91 3.528 137.987V164.16C3.74 164.26 3.926 164.456 4.069 164.803L2.671 165.036C2.20401 165.114 1.77979 165.355 1.47381 165.716C1.16784 166.077 0.999942 166.536 1 167.009V214.62C0.999942 215.093 1.16784 215.552 1.47381 215.913C1.77979 216.274 2.20401 216.515 2.671 216.593L4.039 216.821C3.9 217.14 3.725 217.354 3.528 217.474V234.111C3.749 234.215 3.942 234.424 4.088 234.8L2.671 235.036C2.20401 235.114 1.77979 235.355 1.47381 235.716C1.16784 236.077 0.999942 236.536 1 237.009V284.62C0.999942 285.093 1.16784 285.552 1.47381 285.913C1.77979 286.274 2.20401 286.515 2.671 286.593L4.018 286.818C3.883 287.112 3.716 287.311 3.528 287.425V545.106C3.528 586.319 15.528 598.314 56.751 598.314H161.825C162.772 597.81 164.542 597.471 166.57 597.471L166.711 597.472H166.905L166.991 597.471L200.695 597.476C202.544 597.519 204.137 597.846 205.018 598.314H310.092C351.314 598.314 363.315 586.315 363.315 545.102V270.472C363.056 270.197 362.835 269.676 362.685 269.002L362.674 268.869L364.329 268.593C364.796 268.515 365.22 268.274 365.526 267.913C365.832 267.552 366 267.093 366 266.62V189.009C366 188.536 365.832 188.077 365.526 187.716C365.22 187.355 364.796 187.114 364.329 187.036L362.617 186.751C362.765 185.912 363.013 185.26 363.315 184.94V54.213Z" fill="#4B5563"/>
+<path d="M363.315 54.213C363.315 12.99 351.312 1 310.092 1H56.751C15.53 1 3.528 12.99 3.528 54.213V108.893L2.671 109.036C2.20401 109.114 1.77979 109.355 1.47381 109.716C1.16784 110.077 0.999942 110.536 1 111.009V135.62C0.999942 136.093 1.16784 136.552 1.47381 136.913C1.77979 137.274 2.20401 137.515 2.671 137.593L3.621 137.751C3.59444 137.831 3.56339 137.91 3.528 137.987V164.16C3.74 164.26 3.926 164.456 4.069 164.803L2.671 165.036C2.20401 165.114 1.77979 165.355 1.47381 165.716C1.16784 166.077 0.999942 166.536 1 167.009V214.62C0.999942 215.093 1.16784 215.552 1.47381 215.913C1.77979 216.274 2.20401 216.515 2.671 216.593L4.039 216.821C3.9 217.14 3.725 217.354 3.528 217.474V234.111C3.749 234.215 3.942 234.424 4.088 234.8L2.671 235.036C2.20401 235.114 1.77979 235.355 1.47381 235.716C1.16784 236.077 0.999942 236.536 1 237.009V284.62C0.999942 285.093 1.16784 285.552 1.47381 285.913C1.77979 286.274 2.20401 286.515 2.671 286.593L4.018 286.818C3.883 287.112 3.716 287.311 3.528 287.425V545.106C3.528 586.319 15.528 598.314 56.751 598.314H161.825C162.772 597.81 164.542 597.471 166.57 597.471L166.711 597.472H166.905L166.991 597.471L200.695 597.476C202.544 597.519 204.137 597.846 205.018 598.314H310.092C351.314 598.314 363.315 586.315 363.315 545.102V270.472C363.056 270.197 362.835 269.676 362.685 269.002L362.674 268.869L364.329 268.593C364.796 268.515 365.22 268.274 365.526 267.913C365.832 267.552 366 267.093 366 266.62V189.009C366 188.536 365.832 188.077 365.526 187.716C365.22 187.355 364.796 187.114 364.329 187.036L362.617 186.751C362.765 185.912 363.013 185.26 363.315 184.94V54.213Z" fill="#000"/>
 <path d="M16 49C16 25.252 25.252 16 49 16H315C338.748 16 348 25.252 348 49V554C348 577.196 339.196 586 316 586H48C24.804 586 16 577.196 16 554V49Z" fill="#343E4E"/>
  <foreignObject width="316" height="684" transform="translate(24 24)" clip-path="url(#2ade4387-9c63-4fc4-b754-10e687a0d332)" class="bg-[#F0EAE4]">
             <img class="screen" src="images/screen-1.png" alt="" />
@@ -98,13 +90,42 @@
   </div>
 </div>
 
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-12 sm:px-6 sm:py-32 lg:px-8">
+    <div class="relative isolate overflow-hidden bg-topo-green px-6 pt-16 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-48 lg:text-left">
+        <h2 class="text-5xl font-bold tracking-tight text-white lg:text-7xl">Your birding bookkeeper.</h2>
+        <p class="mt-6 text-xl leading-8 text-white font-medium">Track while birding or hiking. Birbingo helps you quanitify which outings were especially unique by assigning a score to each birding session.</p>
+      </div>
+      <div class="relative mt-16 h-80 lg:mt-8">
+        <img class="absolute left-0 top-10 lg:w-96 max-w-full lg:max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10" src="images/screen-3.png" alt="App screenshot" width="1824" height="1080">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white">
+  <div class="mx-auto max-w-7xl py-12 sm:px-6 sm:py-32 lg:px-8">
+    <div class="relative isolate overflow-hidden bg-topo-green px-6 pt-16 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-48 lg:text-left">
+        <h2 class="text-5xl font-bold tracking-tight text-white lg:text-7xl">Smarts,<br>not snoops.</h2>
+        <p class="mt-6 text-xl leading-8 text-white font-medium">The geolocation works by the name you type in for the location, not your actual GPS coords. No device permissions or personal data required.</p>
+      </div>
+      <div class="relative mt-16 h-80 lg:mt-8">
+        <img class="absolute left-0 top-10 lg:w-96 max-w-full lg:max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10" src="images/screen-4.png" alt="App screenshot" width="1824" height="1080">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div>
         <h2 class="text-base font-semibold leading-7 text-[#006E38]">What is this?</h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A bird app for birders</p>
-        <p class="mt-6 text-base leading-7 text-gray-600">Birbingo™️ is a simple free app for birders who already recognize the birds they see. Make sense and assign a variable score each time you visit the bird blind at your favorite park.</p>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-7xl">A birding app for hackers.</p>
+        <p class="mt-6 text-base leading-7 text-gray-600">Birbingo™️ is a simple free app for birders who already recognize the birds they see. Make sense and assign a score each time you visit the bird blind at your favorite park.</p>
       </div>
       <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
         <div class="relative pl-9">
@@ -127,7 +148,7 @@
 
             LocalStorage Support
           </dt>
-          <dd class="mt-2">All data is stored locally. No cookies, no tracking, no weirdo bulllscat.</dd>
+          <dd class="mt-2">All data is stored locally. No cookies, no tracking, no weirdo bullscat.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -136,7 +157,7 @@
 </svg>
             Mobile Ready
           </dt>
-          <dd class="mt-2">Use the web app and select <strong>Install App</strong> or <strong>Add to Homescreen</strong> to get rolling.</dd>
+          <dd class="mt-2">Use the <a href="https://app.birbingo.com" class="font-semibold underline">web app</a> and select <strong class="font-semibold">Install App</strong> or <strong class="font-semibold">Add to Homescreen</strong> to get rolling.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -168,7 +189,7 @@
 </svg>
 DIY (or don't)
           </dt>
-          <dd class="mt-2">This stupid app is made with the help of AI. Trust it or don't. The smart money says "don't".</dd>
+          <dd class="mt-2">This stupid app is made with the help of AI (ChatGPT 4, to be specific). Trust it or don't. The smart money says "don't".</dd>
         </div>
         
       </dl>
@@ -176,28 +197,28 @@ DIY (or don't)
   </div>
 </div>
 
-<div class="overflow-hidden bg-white py-32">
+<div class="overflow-hidden py-32">
   <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
       <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">For real</h2>
-        <p class="mt-6 text-xl leading-8 text-gray-600">What am I looking at here? Some <a href="https://twitter.com/clarklab">dude</a> made an app using ChatGPT. This is that app. Clone it on <a href="https://github.com/clarklab/birbingo">GitHub</a> or use the <a href="https://app.birbingo.com">public webapp.</a></p>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-7xl">Let's get outside!</h2>
+        <p class="mt-6 text-xl leading-8 text-gray-600">Ready to score some birds? Great! Some <a href="https://twitter.com/clarklab" class="font-semibold underline">doofus</a> made a birding app using ChatGPT. This is that app. Clone it on <a href="https://github.com/clarklab/birbingo">GitHub</a> or use the <a class="font-semibold underline" href="https://app.birbingo.com">public webapp.</a></p>
       
         <div class="mt-8 flex items-center gap-x-6">
-          <a href="https://app.birbingo.com" class="rounded-full bg-[#779E32] px-8 py-4 text-2xl lg:text-3xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Try Birbingo</a>
-          <a href="#" class="text-base font-semibold leading-6 text-gray-900">It's free! <span aria-hidden="true"></span></a>
+          <a href="https://app.birbingo.com" class="rounded-full bg-[#779E32] px-8 py-4 text-2xl lg:text-3xl font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 hover:scale-110 hover:-rotate-1 transition-all">Try Birbingo</a>
+          <a href="#" class="text-xl font-semibold leading-6 text-gray-900">It's free! <span aria-hidden="true"></span></a>
         </div>
       </div>
       <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
         <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-          <img src="https://images.unsplash.com/photo-1663807675862-e4505b4b7b91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1540&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+          <img src="https://images.unsplash.com/photo-1557596915-9ab961b09c7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
         </div>
         <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
           <div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
             <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmlyZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
           </div>
           <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-            <img src="https://images.unsplash.com/photo-1575503221721-8d99cfa3e273?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+            <img src="https://images.unsplash.com/photo-1663807675862-e4505b4b7b91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1540&q=80" alt="" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
           </div>
           <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
             <img src="https://images.unsplash.com/photo-1484704324500-528d0ae4dc7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
@@ -209,10 +230,15 @@ DIY (or don't)
 </div>
 
 
+<footer class="mx-8 lg:mx-0 lg:mx-auto flex md:flex-cols-2 place-content-between max-w-6xl pt-6 pb-24 border-yellow-800/20 border-t-2">
+  <div>Made by <strong class="font-semibold">Superfun</strong> with AI</div>
+  <a class="font-semibold underline" href="mailto:clark@superfun.team">Email Clark</a>
+</footer>
+
 
 
 <script>
-    var images = ['images/screen-1.png', 'images/screen-2.png', 'images/screen-3.png'];
+    var images = ['images/screen-1.png', 'images/screen-2.png', 'images/screen-3.png', 'images/screen-4.png', 'images/screen-5.png', 'images/screen-6.png'];
     var currentImage = 0;
     var imgElement = document.querySelector('.screen');
 
@@ -223,10 +249,10 @@ DIY (or don't)
             currentImage = (currentImage + 1) % images.length;
             imgElement.src = images[currentImage];
             imgElement.classList.remove('fadeOut');
-        }, 500);
+        }, 200);
     }
 
-    setInterval(changeImage, 3000); // Change image every 3 seconds
+    setInterval(changeImage, 4000); // Change image every 3 seconds
 </script>
 
 </body>
